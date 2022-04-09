@@ -8,7 +8,7 @@ Uncomment the "print" functions if you want to check the behavior of this code !
 """
 
 global need_extension, target_extension                                 #拡張子をグローバル宣言
-need_extension = '.pdf'                                                 #求める拡張子
+need_extension = '.txt'                                                 #求める拡張子
 target_extension = ".zip"                                               #抽出元拡張子
 
 if not "./extract_files/":                                              #抽出ファイル格納フォルダ作成
