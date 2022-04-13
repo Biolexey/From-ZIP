@@ -12,7 +12,7 @@ need_extension = '.pdf'                                                 #求め�
 target_extension = ".zip"                                               #抽出元拡張子
 
 if not "./extract_files/":                                              #抽出ファイル格納フォルダ作成
-    os.mkdir("./extract_files/")
+    os.mkdir("./extract_files")
 
 def openzip(name):                                                      #展開関数
     with zipfile.ZipFile(f'target_files/{name}', mode="r") as my_zip:
