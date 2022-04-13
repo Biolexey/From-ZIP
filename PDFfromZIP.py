@@ -34,7 +34,7 @@ def check(my_zip, namelist):                                            #中身�
             None
     
 def main():
-    name = "target"+".zip"                                              #targetフォルダの中に格納した目当てのzipファイル名を"target"へ
+    name = "2022_0Y_30812_select_assignment_status_88802"+".zip"                                              #targetフォルダの中に格納した目当てのzipファイル名を"target"へ
     openzip(name)
 
 if __name__ == "__main__":
