@@ -1,3 +1,4 @@
+from ast import Pass
 import os
 import zipfile
 import shutil
@@ -31,7 +32,7 @@ def check(my_zip, namelist):                                            #中身�
             openzip(file)
         else:
             #print(f"これには何もしません")
-            None
+            pass
     
 def main():
     name = "2022_0Y_30812_select_assignment_status_88802"+".zip"                                              #targetフォルダの中に格納した目当てのzipファイル名を"target"へ

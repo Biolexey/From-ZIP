@@ -31,7 +31,7 @@ def check(my_zip, namelist):                                            #中身�
             openzip(file)
         else:
             #print(f"これには何もしません")
-            None
+            pass
     
 def main():
     name = "target"+".zip"                                              #targetフォルダの中に格納した目当てのzipファイル名を"target"へ
